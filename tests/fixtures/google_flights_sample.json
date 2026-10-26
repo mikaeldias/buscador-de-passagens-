@@ -1,0 +1,70 @@
+{
+  "search_metadata": {"status": "Success"},
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {"name": "Aeroporto de Congonhas", "id": "CGH", "time": "2026-11-08 07:10"},
+          "arrival_airport": {"name": "Aeroporto Santos Dumont", "id": "SDU", "time": "2026-11-08 08:15"},
+          "duration": 65,
+          "airline": "LATAM",
+          "flight_number": "LA 3910"
+        }
+      ],
+      "total_duration": 65,
+      "price": 389,
+      "type": "One way"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {"name": "Aeroporto Internacional de Guarulhos", "id": "GRU", "time": "2026-11-08 06:00"},
+          "arrival_airport": {"name": "Aeroporto Internacional de Brasília", "id": "BSB", "time": "2026-11-08 07:45"},
+          "duration": 105,
+          "airline": "GOL",
+          "flight_number": "G3 1400"
+        },
+        {
+          "departure_airport": {"name": "Aeroporto Internacional de Brasília", "id": "BSB", "time": "2026-11-08 08:40"},
+          "arrival_airport": {"name": "Aeroporto Internacional do Galeão", "id": "GIG", "time": "2026-11-08 10:25"},
+          "duration": 105,
+          "airline": "GOL",
+          "flight_number": "G3 1720"
+        }
+      ],
+      "layovers": [{"duration": 55, "name": "Aeroporto Internacional de Brasília", "id": "BSB"}],
+      "total_duration": 265,
+      "price": 312,
+      "type": "One way"
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {"name": "Aeroporto Internacional de Guarulhos", "id": "GRU", "time": "2026-11-08 21:30"},
+          "arrival_airport": {"name": "Aeroporto Internacional do Galeão", "id": "GIG", "time": "2026-11-08 22:35"},
+          "duration": 65,
+          "airline": "Azul",
+          "flight_number": "AD 4410"
+        }
+      ],
+      "total_duration": 65,
+      "price": 289,
+      "type": "One way"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {"name": "Aeroporto de Congonhas", "id": "CGH", "time": "2026-11-08 12:00"},
+          "arrival_airport": {"name": "Aeroporto Santos Dumont", "id": "SDU", "time": "2026-11-08 13:05"},
+          "duration": 65,
+          "airline": "GOL"
+        }
+      ],
+      "total_duration": 65,
+      "type": "One way"
+    }
+  ],
+  "price_insights": {"lowest_price": 289, "price_level": "low", "typical_price_range": [320, 520]}
+}
